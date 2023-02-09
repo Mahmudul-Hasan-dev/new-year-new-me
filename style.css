@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+/* button */
+.btn-1{
+    color: #005FAC;
+    background-color: #ffffff;
+    border: 2px solid #005FAC ;
+}
+ /* header style */
+ header{
+    height: 808px;
+    background-image: url(../images/banner/banner3.png);  
+}
+.bannar{
+    float: right;  
+ }
+.head-title{
+    font-weight: 700;
+    font-size: 65px;
+    text-align: right;
+    color: #FFFFFF;
+    margin: 216px 230px 24px 845px;
+}
+.head-para{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #FFFFFF;
+    margin: 0px 230px 32px 845px;
+    padding-left: 20px;
+ }
+ .head-btn{
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0px 230px 187px 1220px;
+    padding: 15px 20px;
+ }
+
+ /* failure style */
+ .failure{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 130px;
+ }
+ .failure img{
+   margin-left: 206px;
+   margin-right: 87px;
+}
+ .fail-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-top:300px ;
+    margin-right:450px ;
+    margin-bottom: 24px ;
+ }
+ .fail-para{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-right:322px  ;
+    margin-bottom:16px ;
+    line-height: 26px;
+ }
+ .fail-list
+ {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-right:400px ; 
+    line-height: 26px;
+ }
+
+ /* about style */
+
+.about{
+   max-width: 900px;
+   margin: 0 auto;
+   background-color:  #5798ee;
+   border-radius: 10px;
+   padding: 120px 130px;
+}
+.about-title{
+   text-align: center;
+   margin-bottom: 30px;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 48px;
+   color: #ffffff;
+}
+.about-para{
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 30px;
+   text-align: center;
+   color: #00123b;
+   margin-bottom: 30px;
+}
+.about-info-container{
+   display: flex;
+   justify-content: space-around;
+}
+.info-title{
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 30px;
+   color: #010102;
+}
+.info-value{
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 30px;
+   color: #f6f6ff;
+}
+
+ /* my plan style */
+ .my-plan{
+   margin-top: 150px;
+ }
+ .plans{
+      display: flex;
+      justify-content: space-between;
+      margin:50px 230px;
+      text-align: center;
+   }
+ .plan-title{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #151414;
+ }
+ .plan-subtitle{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #151414;
+    margin-top:20px ;
+ }
+ .plan-para{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #737272;
+    margin-top: 16px;
+ }
+ .mindset{
+   margin: 125px 230px 130px 230px;
+   height: 300px;
+   background-image: linear-gradient(to left, rgba(255, 255, 255, 0.017), rgba(0, 95, 172, 0.942)),
+   url('../images/watch.png');
+   background-repeat: no-repeat;
+   background-position: center;
+ }
+ .mindset-title{
+   padding:59px 617px 24px 64px ;
+   font-weight:400 ;
+   font-size: 40px;
+   color: #ffffff;
+ }
+ .mindset-btn{
+   margin-left: 64px;
+   padding: 15px 25px;
+   font-weight: 600;
+   font-size: 20px;
+ }
+ /* footer style */
+ footer{
+    background: #151414;
+    display: flex;
+    justify-content: space-between;
+    height: 577px;
+    color: #ffffff;
+ }
+ .future{
+   margin-top:130px ;
+   margin-left: 194px;
+}
+.foot-title{
+   font-weight: 700;
+   font-size: 45px;
+   color: #F8F8F8;
+}
+.foot-para{
+   margin-right:400px;
+   margin-top: 16px;
+   margin-bottom: 24px;
+   padding-right: 15px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+}
+.foot-info{
+   margin-bottom: 16px;
+   font-weight: 400;
+   font-size: 16px;
+}
+.icon img{
+   margin-top: 16px;
+   padding-right: 20px;
+}
+ .subscribe {
+   margin:130px 229px 0 0;
+}
+.subscribe-title  {
+   font-weight: 600;
+   font-size: 25px;
+}
+
+ .subscribe input[type="email"]{
+   width: 325px;
+   margin-bottom: 16px;
+   margin-top: 31px;
+   height: 60px;
+   background-color: transparent;
+   border-radius: 2px;
+   border: 1px solid #FFFFFF;
+}
+.subscribe input[type="submit"]{
+  padding: 12px 20px ;
+   background-color: #005fac;
+   border-radius: 3px;
+   color: #FFFFFF;
+   border: 1px solid #005FAC;
+}
